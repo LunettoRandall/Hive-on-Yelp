@@ -11,9 +11,9 @@ mkdir yelp/results/tip_sentiment_tip_sentiment_trial_1
 #Download dictionary file to analyze sentiment of data in Local filesystem
 wget -O dictionary.tsv https://s3.amazonaws.com/hipicdatasets/dictionary.tsv
 
-#Create yelp/tip/dictionary directory in the HDFS (/home/malam/) to upload dictionary files to
-hdfs dfs -mkdir yelp/tip/dictionary
+#Create dictionary directory in the HDFS (/home/malam/yelp) to upload dictionary files to
+hdfs dfs -mkdir yelp/dictionary
 
 #Upload the dictionary.tsv file into the above directory
-hdfs dfs -put dictionary.tsv yelp/tip/dictionary
+hdfs dfs -put dictionary.tsv yelp/dictionary
 
