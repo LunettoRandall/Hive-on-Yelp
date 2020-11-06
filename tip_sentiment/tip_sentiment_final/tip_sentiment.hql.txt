@@ -1,7 +1,6 @@
 
---Creating a view tip_modified with an added column tip_id, which will act as 
+--Creating a view tip_modified with an added column tip_id, which will act as a row identifier/primary key;
 
-a row identifier/primary key;
 create view tip_modified as select row_number() over() tip_id, tip_user_id, tip_business_id, tip_text, tip_date, tip_compliment_count from tip;
 
 --Creating dictionary table for sentiment analysis
