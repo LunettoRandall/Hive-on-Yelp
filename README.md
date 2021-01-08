@@ -1,7 +1,7 @@
 # Hive-on-Yelp
 ## Introduction
 
-Team Project for Cal State LA Big Data CIS 4560
+Term Project for Cal State LA Intro to Big Data (CIS 4560) with Dr. Jongwook Woo
 
 Team Contributors: Mohsen Alam, Benjamin Cevallos, Randall Lunetto, Kotaro Yayoshi
 
