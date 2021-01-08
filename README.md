@@ -1,17 +1,42 @@
-﻿# Hive-on-Yelp
+# Hive-on-Yelp
 ## Introduction
 
 This repository is hosting our analysis of Yelp Dataset. Yelp Dataset is available here: https://www.yelp.com/dataset/download
 
+For the sentiment analysis, we have used a dictionary dataset found here: https://s3.amazonaws.com/hipicdatasets/dictionary.tsv
+
+state_locations.txt file is used for producing better location detection in Excel 3D Map; it can be found here: https://drive.google.com/uc?id=1dFrIcQuBhaANRHHvnzbthfU3HHVDRy7Y&export=download
+
+Complete tutorial is available here: https://tinyurl.com/hive-on-yelp
+
+
 There are five JSON files in this dataset: business, checkin, review, user, and tip. Our downloaded version of the dataset is 9.8 GB when uncompressed. 
+
+We have run descriptive analytics on the Yelp dataset to find out how different features of Yelp evolved throughout last decades, how businesses in different states receive different level of ratings, what people express in their tips by doing sentiment analysis. 
+
 
 ## Structure
 
-preparation.sh prepares the user machine by extracting JSON files from the archive and moving the JSON files to HDFS filesystem.
+### Codes
+This directory contains all the final codes in one place. Please replace UNAME with appropriate username.
 
-complete_tables.hql file creates five raw tables based on the five JSON files, and five standard tables based on the raw tables.
+### Deliverables
+All the final submissions are saved in this directory.
 
-HiveQL related to processing and analysis of data are saved in sub-directories. These sub-directories may also contain two bash script files: pre and post. These files hold necessary commands for input and output handling in the user machine.
+### Outputs
+This directory holds all the final output files. 
 
+### preparation.sh
+This file prepares the user machine by extracting JSON files from the archive and moving the JSON files to HDFS filesystem.
 
-Pre and Post files should be run before and after running the HQL files, respectively.
+### primary_tables.hql 
+This file creates initial raw tables based on the five JSON files, and standard tables based on the raw tables. 
+
+### state_locations.txt
+Maps state acronyms used in the Yelp Dataset to complete state names with country names for better map rendering.
+
+### Workflow Chart.jpg 
+This flow chart explains the top-level view of overall operation.  
+
+### drafts
+This directory contains all the previous versions and ongoing works
