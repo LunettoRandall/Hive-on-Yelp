@@ -2,6 +2,7 @@
 ## Introduction
 
 Team Project for Cal State LA Big Data CIS 4560
+
 Team Contributors: Mohsen Alam, Benjamin Cevallos, Randall Lunetto, Kotaro Yayoshi
 
 This repository is hosting our analysis of Yelp Dataset. Yelp Dataset is available here: https://www.yelp.com/dataset/download
