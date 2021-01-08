@@ -1,6 +1,9 @@
 # Hive-on-Yelp
 ## Introduction
 
+Team Project for Cal State LA Big Data CIS 4560
+Team Contributors: Mohsen Alam, Benjamin Cevallos, Randall Lunetto, Kotaro Yayoshi
+
 This repository is hosting our analysis of Yelp Dataset. Yelp Dataset is available here: https://www.yelp.com/dataset/download
 
 For the sentiment analysis, we have used a dictionary dataset found here: https://s3.amazonaws.com/hipicdatasets/dictionary.tsv
