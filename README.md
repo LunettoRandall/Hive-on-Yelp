@@ -41,6 +41,3 @@ Maps state acronyms used in the Yelp Dataset to complete state names with countr
 
 ### Workflow Chart.jpg 
 This flow chart explains the top-level view of overall operation.  
-
-### drafts
-This directory contains all the previous versions and ongoing works
